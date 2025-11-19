@@ -8,7 +8,7 @@ const lexend = Lexend({ subsets: ['latin'] })
 export const metadata: Metadata = {
   title: 'Offiong Restaurant - Fine Dining Experience',
   description: 'Experience authentic Nigerian cuisine at Offiong Restaurant. Premium quality meals prepared with passion.',
-  generator: 'v0.app',
+  generator: 'Next.js',
   icons: {
     icon: '/images/shhhhhh.png',
     apple: '/images/shhhhhh.png',

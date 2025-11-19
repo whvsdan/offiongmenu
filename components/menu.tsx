@@ -20,7 +20,7 @@ const menuData: MenuSection[] = [
     items: [
       { name: 'Cow Leg', price: 6000 },
       { name: 'Cow Tail', price: 6000 },
-      { name: 'Goat Meat', price: 2500 },
+      { name: 'Goat Meat', price: 8500 },
       { name: 'Assorted Meat', price: 4500 },
       { name: 'Catfish Chicken', price: 4500 },
       { name: 'Turkey', price: 7000 },
@@ -30,12 +30,12 @@ const menuData: MenuSection[] = [
   {
     title: 'Rice Meal',
     items: [
-      { name: 'Smoke Jolof Rice', price: 2500 },
+      { name: 'Smokey Jolof Rice', price: 2500 },
       { name: 'Asun, Jolof Rice', price: 3000 },
       { name: 'Coconut Rice', price: 3500 },
-      { name: 'Jolof Rice', price: 1500 },
+      { name: 'Jollof Rice', price: 2500 },
       { name: 'White Rice & Stew', price: 2000 },
-      { name: 'White Beans', price: 4000 },
+      { name: 'White Beans', price: 2000 },
       { name: 'Jambalaya, Jolof Rice', price: 2500 },
       { name: 'Party Food Rice', price: 2500 },
       { name: 'Native Coconut Rice', price: 1500 },
@@ -45,21 +45,21 @@ const menuData: MenuSection[] = [
     title: 'Proteins / Meat',
     items: [
       { name: 'Beef', price: 3000 },
-      { name: 'Goat Meat', price: 8500 },
+      { name: 'Goat Meat', price: 2500 },
       { name: 'Titus', price: 3000 },
       { name: 'Chicken (Big)', price: 4000 },
       { name: 'Chicken (Small)', price: 3000 },
       { name: 'Croaker', price: 5000 },
       { name: 'Turkey', price: 7000 },
-      { name: 'Pompo (Big)', price: 4000 },
-      { name: 'Pompo (Small)', price: 3000 },
+      { name: 'Panla (Big)', price: 4000 },
+      { name: 'Panla (Small)', price: 3000 },
     ],
   },
   {
     title: 'Sides / Wraps',
     items: [
       { name: 'Sauced Plantain', price: 1500 },
-      { name: 'Moundi', price: 1500 },
+      { name: 'Moi Moi', price: 1500 },
       { name: 'Salad', price: 1500 },
       { name: 'Shawarma', price: 5000 },
       { name: 'Fried Plantain', price: 5000 },
@@ -76,6 +76,7 @@ const menuData: MenuSection[] = [
       { name: 'Okro Soup', price: 2000 },
       { name: 'White Soup', price: 3500 },
       { name: 'Bitterleaf Soup', price: 2000 },
+      { name: 'Ekpang Nkukwo Soup', price: 4000 },
       { name: 'Egusi Soup', price: 2000 },
       { name: 'Afang Soup', price: 2500 },
       { name: 'Oha Soup', price: 2000 },
@@ -86,34 +87,35 @@ const menuData: MenuSection[] = [
     title: 'Swallow',
     items: [
       { name: 'Pounded Yam', price: 1000 },
-      { name: 'Poundo Yam', price: 700 },
-      { name: 'Semolina', price: 500 },
+      { name: 'Poundo Yam', price: 1000 },
+      { name: 'Semovita', price: 500 },
       { name: 'Fufu', price: 500 },
       { name: 'Garri', price: 500 },
-      { name: 'Wheat', price: 500 },
+      { name: 'Wheat', price: 1000 },
       { name: 'Oat', price: 1000 },
     ],
   },
   {
     title: 'Beverages',
     items: [
-      { name: 'Water', price: 460 },
+      { name: 'Water', price: 400 },
       { name: 'Coca-Cola', price: 800 },
-      { name: 'Zobo Juice', price: 740 },
+      { name: 'Zobo Juice', price: 750 },
       { name: 'Fanta', price: 800 },
       { name: 'Exotic', price: 3500 },
       { name: 'Amstel Malt', price: 1500 },
       { name: 'Malta Guinness', price: 1500 },
-      { name: 'Bigi', price: 9000 },
+      { name: 'Bigi', price: 2000 },
     ],
   },
   {
     title: 'Porridge',
     items: [
-      { name: 'Porridge (Beans)', price: 4500 },
+      { name: 'Porridge (Beans)', price: 1500 },
+      { name: 'Porridge (Yam)', price: 1500 },
       { name: 'Porridge (Plantain)', price: 1500 },
-      { name: 'Porridge (Special)', price: 2000 },
-      { name: 'Porridge (Egusi)', price: 4000 },
+      { name: 'Porridge (Offiongs Special Potato)', price: 2000 },
+      { name: 'Porridge (Epang)', price: 4000 },
     ],
   },
 ]
@@ -177,8 +179,8 @@ export function Menu() {
                 />
               </div>
               <div>
-                <h1 className="text-3xl font-bold text-foreground tracking-tight">Offiong</h1>
-                <p className="text-xs text-secondary">Restaurant</p>
+                <h1 className="text-3xl font-bold text-foreground tracking-tight">Offiong Restaurant</h1>
+                <p className="text-xs text-secondary"></p>
               </div>
             </div>
           </div>
