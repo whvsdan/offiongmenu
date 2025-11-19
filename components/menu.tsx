@@ -62,7 +62,7 @@ const menuData: MenuSection[] = [
       { name: 'Moi Moi', price: 1500 },
       { name: 'Salad', price: 1500 },
       { name: 'Shawarma', price: 5000 },
-      { name: 'Fried Plantain', price: 5000 },
+      { name: 'Fried Plantain', price: 500 },
       { name: 'Chicken Salad', price: 5000 },
       { name: 'Fruit Salad', price: 3000 },
       { name: 'Chicken Wrap', price: 6000 },
